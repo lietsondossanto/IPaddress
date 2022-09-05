@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Wrapper = styled.footer`
   width: 100%;
@@ -60,8 +60,8 @@ export const Wrapper = styled.footer`
     transition: 0.5s;
 
     &:hover {
-      color: ${({ theme }) => theme.colors.background};
-      background-color: ${({ theme }) => theme.colors.textPrimary};
+      filter: brightness(0.7);
+      cursor: pointer;
     }
   }
 
@@ -119,4 +119,4 @@ export const Wrapper = styled.footer`
       display: none;
     }
   }
-`
+`;

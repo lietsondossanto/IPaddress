@@ -1,9 +1,9 @@
-import axios from "axios"
+import axios from "axios";
 
 const Api = axios.create({
-  baseURL: 'https://api.ipdata.co/',
-  method: 'GET', 
-  headers: {Accept: 'application/json'}
-})
+  baseURL: "https://api.ipdata.co/",
+  method: "GET",
+  headers: { Accept: "application/json" },
+});
 
-export default Api
+export default Api;

@@ -1,9 +1,9 @@
-import React from 'react'
-import Link from 'next/link'
-import { IoLogoLinkedin } from 'react-icons/io'
-import { VscFoldUp, VscTwitter, VscGithub } from 'react-icons/vsc'
+import React from "react";
+import Link from "next/link";
+import { IoLogoLinkedin } from "react-icons/io";
+import { VscFoldUp, VscTwitter, VscGithub } from "react-icons/vsc";
 
-import { Wrapper } from './styles'
+import { Wrapper } from "./styles";
 
 const Footer = () => {
   return (
@@ -41,12 +41,16 @@ const Footer = () => {
           </p>
         </div>
 
-        <button type="button" onClick={() => scrollTo(0, 0)}>
+        <button
+          type="button"
+          title="Go to top"
+          onClick={() => scrollTo({ top: 0, left: 0, behavior: "smooth" })}
+        >
           <VscFoldUp />
         </button>
       </Wrapper>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

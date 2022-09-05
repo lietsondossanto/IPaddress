@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Info = styled.div`
   width: 100%;
@@ -38,7 +38,7 @@ export const Info = styled.div`
       flex-direction: column;
     }
   }
-`
+`;
 
 export const Menu = styled.nav`
   width: 100%;
@@ -50,7 +50,7 @@ export const Menu = styled.nav`
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
 
   .nameOfWebsite {
-    font-size: 1.90rem;
+    font-size: 1.9rem;
     text-decoration: none;
     color: ${({ theme }) => theme.colors.background};
   }
@@ -58,8 +58,7 @@ export const Menu = styled.nav`
   @media (max-width: 650px) {
     height: 4rem;
   }
-`
-
+`;
 
 export const Content = styled.div`
   width: 100%;
@@ -68,7 +67,7 @@ export const Content = styled.div`
   text-justify: inter-word;
   text-indent: 2em;
 
-  .first_post {
+  .firstPost {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +102,7 @@ export const Content = styled.div`
     }
   }
 
-  .second_post {
+  .secondPost {
     width: 100%;
     height: 90vh;
     display: flex;
@@ -148,7 +147,7 @@ export const Content = styled.div`
     }
   }
 
-  .third_post {
+  .thirdPost {
     width: 100%;
     display: flex;
     align-items: center;
@@ -166,7 +165,7 @@ export const Content = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      
+
       .texts {
         width: 50%;
         margin-right: 5rem;
@@ -186,7 +185,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 1024px) {
-    .first_post {
+    .firstPost {
       h1 {
         font-size: 2rem;
       }
@@ -209,7 +208,7 @@ export const Content = styled.div`
       }
     }
 
-    .second_post {
+    .secondPost {
       h1 {
         margin-top: 2rem;
         font-size: 2rem;
@@ -239,7 +238,7 @@ export const Content = styled.div`
       }
     }
 
-    .third_post {
+    .thirdPost {
       width: 100%;
       display: flex;
       align-items: center;
@@ -281,7 +280,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 768px) {
-    .first_post {
+    .firstPost {
       h1 {
         font-size: 1.6rem;
       }
@@ -301,7 +300,7 @@ export const Content = styled.div`
       }
     }
 
-    .second_post {
+    .secondPost {
       h1 {
         font-size: 1.6rem;
       }
@@ -324,7 +323,7 @@ export const Content = styled.div`
       }
     }
 
-    .third_post {
+    .thirdPost {
       h1 {
         font-size: 1.6rem;
       }
@@ -353,7 +352,7 @@ export const Content = styled.div`
     width: 100%;
     margin: 7rem auto;
 
-    .first_post {
+    .firstPost {
       h1 {
         font-size: 1.3rem;
       }
@@ -378,7 +377,7 @@ export const Content = styled.div`
       }
     }
 
-    .second_post {
+    .secondPost {
       width: 100%;
       margin-top: 0rem;
       background-color: ${({ theme }) => theme.colors.background};
@@ -412,7 +411,7 @@ export const Content = styled.div`
       }
     }
 
-    .third_post {
+    .thirdPost {
       width: 100%;
       margin-top: 0;
 
@@ -440,4 +439,4 @@ export const Content = styled.div`
       }
     }
   }
-`
+`;

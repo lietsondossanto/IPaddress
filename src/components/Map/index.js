@@ -1,18 +1,18 @@
-import { useEffect, useState } from 'react'
-import { Map, Marker } from 'pigeon-maps'
+import { useEffect, useState } from "react";
+import { Map, Marker } from "pigeon-maps";
 
-import { Wrapper } from './styles'
+import { Wrapper } from "./styles";
 
 const Maps = ({ lat, lng }) => {
-  const [hue, setHue] = useState(0)
-  const [zoom, setZoom] = useState(13)
-  const [center, setCenter] = useState([lat, lng])
+  const [hue, setHue] = useState(0);
+  const [zoom, setZoom] = useState(13);
+  const [center, setCenter] = useState([lat, lng]);
 
-  const color = `hsl(${hue % 360}deg 39% 70%)`
+  const color = `hsl(${hue % 360}deg 39% 70%)`;
 
   useEffect(() => {
-    setCenter([lat, lng])
-  }, [lng, lat])
+    setCenter([lat, lng]);
+  }, [lng, lat]);
 
   return (
     <Wrapper>
@@ -21,8 +21,8 @@ const Maps = ({ lat, lng }) => {
         center={center}
         defaultCenter={center}
         onBoundsChanged={({ center, zoom }) => {
-          setZoom(zoom)
-          setCenter(center)
+          setZoom(zoom);
+          setCenter(center);
         }}
       >
         <Marker
@@ -32,7 +32,7 @@ const Maps = ({ lat, lng }) => {
         />
       </Map>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Maps
+export default Maps;

@@ -1,19 +1,19 @@
-import Router from 'next/router'
-import Head from 'next/head'
-import NProgress from 'nprogress'
-import { ThemeProvider } from 'styled-components'
-import Script from 'next/script'
+import Router from "next/router";
+import Head from "next/head";
+import NProgress from "nprogress";
+import { ThemeProvider } from "styled-components";
+import Script from "next/script";
 
-import GlobalStyle from './../styles/Global'
-import Theme from './../styles/Theme'
+import GlobalStyle from "./../styles/Global";
+import Theme from "./../styles/Theme";
 
-Router.events.on('routeChangeStart', url => {
-  console.log(`Loading: ${url}`)
-  NProgress.start()
-})
+Router.events.on("routeChangeStart", (url) => {
+  console.log(`Loading: ${url}`);
+  NProgress.start();
+});
 
-Router.events.on('routeChangeComplete', () => NProgress.done())
-Router.events.on('routeChangeError', () => NProgress.done())
+Router.events.on("routeChangeComplete", () => NProgress.done());
+Router.events.on("routeChangeError", () => NProgress.done());
 
 function App({ Component, pageProps }) {
   return (
@@ -36,7 +36,7 @@ function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

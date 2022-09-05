@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Wrapper = styled.section`
   width: 100%;
   height: 70vh;
-`
+`;
 
 export const Content = styled.div`
   width: 70%;
@@ -20,7 +20,7 @@ export const Content = styled.div`
     max-height: 55%;
     display: flex;
     align-items: center;
-    
+
     .informationWrapper {
       font-size: 2.2rem;
 
@@ -167,7 +167,7 @@ export const Content = styled.div`
         border-radius: 8px;
         color: ${({ theme }) => theme.colors.textSecond};
         background-color: ${({ theme }) => theme.colors.background};
-        
+
         h2 {
           display: flex;
           align-items: center;
@@ -201,7 +201,7 @@ export const Content = styled.div`
       }
     }
   }
-`
+`;
 
 export const SearchInput = styled.div`
   display: flex;
@@ -211,7 +211,7 @@ export const SearchInput = styled.div`
 
   form {
     display: flex;
-  
+
     input {
       width: 28rem;
       height: 4rem;
@@ -288,4 +288,4 @@ export const SearchInput = styled.div`
       height: 3rem;
     }
   }
-`
+`;

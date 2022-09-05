@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -7,4 +7,4 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 2%;
-`
+`;
