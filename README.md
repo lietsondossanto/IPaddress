@@ -16,7 +16,7 @@
 
 <br/><br/>
 
-## <h2 id="about">👨🏿‍🏫 About</h2>
+## <span id="about">👨🏿‍🏫 About</span>
 `IPaddres` is an IP locator it tracks any device by the ip address and returns data with the country where this ip address is located the province(state), city, longitude, latitude, ip provider(isp), it is integrated with a map (Google-maps) showing the exact location of this address or device on this web page contains some posts about ip addresses and also some tips about anonymity on the internet.
 
 The base technology for creating this project was the [Next.js](https://reactjs.org/) to develop this project I took about 1 week after some trial and error, This website is fully responsive and can be accessed from any device.<br/>
@@ -25,9 +25,11 @@ The base technology for creating this project was the [Next.js](https://reactjs.
 
 > This project is already hosted on the vercel website and ready to use, to access the web page click [aqui](https://ipadress.vercel.app/).
 
-## <h2 id="preview">✨ Preview</h2>
+<br/>
 
-Home page
+## <span id="preview">✨ Preview</span>
+
+Home page <br/><br/>
 
 <p align="center">
   <img width="700" align="center" src="./src/assets/images/project/Version_2.png" alt="Project demo"/>
@@ -35,7 +37,7 @@ Home page
 
 <br/>
 
-## <h2 id="installation">👨🏿‍💻 Quick Start</h2>
+## <span id="installation">👨🏿‍💻 Quick Start</span>
 
 To use the website on your local machine follow the steps below:
 
@@ -63,9 +65,9 @@ Execute:
 yarn dev
 ```
 
-<br/>
+<br />
 
-## <h2 id="details">⁉️ Details</h2>
+## <span id="details">⁉️ Details</span>
 
 To create this project I used the `ipdata` API to be able to access data such as longitude, latitude, city etc...
 
@@ -76,9 +78,7 @@ To add this environment variable to the project just create a `.env` file at the
 NEXT_PUBLIC_API_IPDATA_KEY="<YOUR_KEY>"
 ```
 
-<br/>
-
-## <h2 id="difficulties">😤 Difficulties</h2>
+## <span id="difficulties">😤 Difficulties</span>
 
 While developing this project I had some difficulties creating the front-end and also finding the right APIs to use in this web site.
 
@@ -96,9 +96,7 @@ They all had advantages and disadvantages and I always ended up having problems 
 I also had a little trouble finding the ideal color palette,
 the color palette I'm using on this website was drawn from the [coolors](https://coolors.co/) website.
 
-<br/>
-
-## <h2 id="technology">🚀 Technologies</h2>
+## <span id="technology">🚀 Technologies</span>
 
 This project was developed with the following technologies:
 
@@ -109,31 +107,27 @@ This project was developed with the following technologies:
 - [Nprogress](https://www.npmjs.com/package/nprogress)
 - [React-icons](https://react-icons.github.io/react-icons/)
 - [Axios](https://github.com/axios/axios)
-- [Pigeon Maps](https://pigeon-maps.js.org/)
+- [Pigeon Maps](https://pigeon-maps.js.org/) 
 
-<br/>
+## <span id="contributing">🤝🏿 Contributing</span>
 
-## <h2 id="contributing">🤝🏿 Contributing</h2>
 - Fork this repository;
 - Create a branch with your feature: `git checkout -b my-feature`;
 - Commit your changes: `git commit -m 'feat: my-new-feature'`;
 - Push to your branch: `git push origin my-feature`.
 
-<br/>
-
-## <h2 id="author">Author</h2>
+## <span id="author">Author</span>
 
 👤 **Lietson Dos Santos**
 
 - Lindin: [@lietsondossanto](https://www.linkedin.com/in/lietsondossanto)
 - Twitter: [@lietsondossanto](https://twitter.com/lietsondossanto)
-- Github: [@lietsondossanto](https://github.com/lietsondossanto)
+- Github: [@lietsondossanto](https://github.com/lietsondossanto) <br/>
 
-<br/>
+## <span id="license">📝 License</span>
 
-## <h2 id="license">📝 License</h2>
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ---
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 Copyright © 2021-2022 [Lietson Dos Santos](https://github.com/lietsondossanto).
