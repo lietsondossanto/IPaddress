@@ -1,10 +1,7 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  images: {
-    domains: ["assets.vercel.com"],
-    formats: ["image/avif", "image/webp"],
-  },
-  compiler: {
-    styledComponents: true,
-  },
-};
+  swcMinify: true,
+}
+
+module.exports = nextConfig

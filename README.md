@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to IPadress 👋🏿</h1>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Version-2.0.0-brightgreen" alt="version">
+    <img src="https://img.shields.io/badge/Version-3.0.0-brightgreen" alt="version">
     <img src="https://img.shields.io/github/last-commit/lietsondossanto/ipadress" alt="last-communit">&nbsp;&nbsp;
     <img src="https://img.shields.io/github/issues/lietsondossanto/ipadress" alt="issues">&nbsp;&nbsp;
     <img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="license">
@@ -107,7 +107,7 @@ This project was developed with the following technologies:
 - [Nprogress](https://www.npmjs.com/package/nprogress)
 - [React-icons](https://react-icons.github.io/react-icons/)
 - [Axios](https://github.com/axios/axios)
-- [Pigeon Maps](https://pigeon-maps.js.org/) 
+- [Pigeon Maps](https://pigeon-maps.js.org/)
 
 ## <span id="contributing">🤝🏿 Contributing</span>
 
